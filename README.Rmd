@@ -62,7 +62,7 @@ Below is the citation output from using `citation('biocthistest')` in R. Please
 run this yourself to check for any updates on how to cite __biocthistest__.
 
 ```{r 'citation', eval = requireNamespace('biocthistest')}
-print(citation('biocthistest'), bibtex = TRUE)
+print(citation("biocthistest"), bibtex = TRUE)
 ```
 
 Please note that the `biocthistest` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.
